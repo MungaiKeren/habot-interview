@@ -11,22 +11,25 @@ function Footer() {
   return (
     <footer>
       <Container className="h-100">
-        <div className="row h-100 align-items-center footer-main-row">
+        <div className="row h-100 footer-main-row">
           <div className="col-md-2">
             <img src={logowhite} alt="Logo" className="img-fluid" />
+            <p>© R Singhania</p>
           </div>
-          <div className="col-md-2">
-            <h5>Company</h5>
-            <ul className="list-unstyled">
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">FAQ</a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-2">
+
+          <div className="col-md-6 d-flex align-items-start justify-content-between">
+            <div>
+              <h5>Company</h5>
+              <ul className="list-unstyled">
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+              </ul>
+            </div>
+
             <div>
               <h5>Terms</h5>
               <ul className="list-unstyled">
@@ -41,18 +44,20 @@ function Footer() {
                 </li>
               </ul>
             </div>
+
+            <div>
+              <h5>Related</h5>
+              <ul className="list-unstyled">
+                <li>
+                  <a href="#">Find Buyer</a>
+                </li>
+                <li>
+                  <a href="#">Feedback</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="col-md-2">
-            <h5>Related</h5>
-            <ul className="list-unstyled">
-              <li>
-                <a href="#">Find Buyer</a>
-              </li>
-              <li>
-                <a href="#">Feedback</a>
-              </li>
-            </ul>
-          </div>
+
           <div className="col-md-4 text-end">
             <div>
               <a
